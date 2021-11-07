@@ -19,10 +19,9 @@ void main()
     //if(vertexUV.x)
 
 
-    
-    UV = vec2( vertexUV.x , 1-vertexUV.y);
+    UV = vec2( vertexUV.x , vertexUV.y);
 
-    //UV = vec2(vertexUV.x - 1, vertexUV.y - 1);
+    //UV = vec2(vertexUV.x - 1, 1 - vertexUV.y);
 
     //UV = vec2(vertexUV.y,vertexUV.x*-1);
 }
